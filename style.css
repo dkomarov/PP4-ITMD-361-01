@@ -2,6 +2,7 @@
 /* Style for the Table of Planets */
 h1 {
   text-align: center;
+  color: #F92006;
 }
 /* Set background to galaxy picture */
 body {
@@ -17,7 +18,7 @@ table {
 table th {
   text-align: left;
   background-color: #3a6070;
-  color:#FFF;
+  color:#4FFD08;
   padding:10px 50px 10px 8px;
 }
 table td {
@@ -28,5 +29,5 @@ table td {
 
 /* Set background color for every other row */
 table tr:nth-child(odd) td {
-  background-color: #e7edf0;
+  background-color: #3a6070;
 }
