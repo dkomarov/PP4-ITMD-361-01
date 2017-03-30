@@ -1,0 +1,32 @@
+@charset "UTF 8";
+/* Style for the Table of Planets */
+h1 {
+  text-align: center;
+}
+/* Set background to galaxy picture */
+body {
+  margin:0;
+  padding:0;
+  background:url("../image/space_hd_wallpaper_art.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+table {
+  border-collapse: collapse;
+  margin:auto;
+}
+table th {
+  text-align: left;
+  background-color: #3a6070;
+  color:#FFF;
+  padding:10px 50px 10px 8px;
+}
+table td {
+  border: 1px Solid #e3e3e3;
+  padding: 4px 8px;
+  color: Red;
+}
+
+/* Set background color for every other row */
+table tr:nth-child(odd) td {
+  background-color: #e7edf0;
+}
