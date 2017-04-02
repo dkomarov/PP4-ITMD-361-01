@@ -1,14 +1,16 @@
 @charset "UTF 8";
-/* Style for the Table of Planets */
+/*Provides style for index.html*/
 h1 {
   text-align: center;
-  color: #F92006;
+  color: yellow;
 }
-/* Set background to galaxy picture */
+
+/*Set background styling*/
 body {
-  margin:0;
-  padding:0;
-  background:url("http://nevseoboi.com.ua/uploads/posts/2011-09/1316294081_30_www.nevseoboi.com.ua.jpg") no-repeat center center fixed;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background:url("http://sciencequestionswithsurprisinganswers.org/images/planets.png") no-repeat center center fixed;
   background-size: cover;
 }
 table {
@@ -16,18 +18,16 @@ table {
   margin:auto;
 }
 table th {
+  border: 1px Solid yellow;
   text-align: left;
-  background-color: #3a6070;
-  color:#4FFD08;
-  padding:10px 50px 10px 8px;
+  background-color: black;
+  color:yellow;
+  padding:10px 10px 10px 10px;
 }
 table td {
-  border: 1px Solid #e3e3e3;
-  padding: 4px 8px;
-  color: #4FFD08;
+  border: 1px Solid yellow;
+  padding: 3px 3px;
+  color: #29D2C0;
 }
 
-/* Set background color for every other row */
-table tr:nth-child(odd) td {
-  background-color: #3a6070;
-}
+
