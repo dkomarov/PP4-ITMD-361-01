@@ -2,11 +2,12 @@
 /*Provides style for index.html*/
 h1 {
   text-align: center;
-  color: yellow;
+  color: #FDFFFF;
 }
 
 /*Set background styling*/
 body {
+  font-family: Arial, sans-serif, "Times New Roman"; 
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -18,14 +19,14 @@ table {
   margin:auto;
 }
 table th {
-  border: 1px Solid yellow;
+  border: 2px Solid red;
   text-align: left;
   background-color: black;
   color:yellow;
   padding:8px 8px 8px 8px;
 }
 table td {
-  border: 1px Solid yellow;
+  border: 2px Solid blue;
   padding: 3px 3px;
   color: cyan;
 }
