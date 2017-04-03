@@ -1,10 +1,16 @@
 @charset "UTF 8";
 /*Provides style for index.html*/
 
-/*header styling*/
+/*header1 styling*/
 h1 {
   text-align: center;
   color: cyan;
+}
+
+/*header1 hover event*/
+h1:hover
+{
+ color: black;
 }
 
 /*Set background styling*/
@@ -29,7 +35,7 @@ table th {
   border: 2px Solid red;
   text-align: left;
   background-color: black;
-  color:yellow;
+  color: yellow;
   padding:10px 10px 10px 10px;
 }
 
@@ -40,13 +46,23 @@ table td {
   color: cyan;
 }
 
-/* Set background color for every even row */
+/*Set background color for every even row*/
 table tr:nth-child(even) td {
   background-color: #4E425B;
 }
 
-/* Set background color for every odd row */
+/*Set background color for every odd row*/
 table tr:nth-child(odd) td {
   background-color: #4C0A6C;
+}
+
+/*Even row hover event*/
+table tr:nth-child(even) td:hover {
+  background-color: red;
+}
+
+/*Odd row hover event*/
+table tr:nth-child(odd) td:hover {
+  background-color: blue;
 }
 
